@@ -28,7 +28,15 @@ const router = createBrowserRouter([
   {
     path: "/admin",
     element: <AdminDashboard />,
-  }
+  },
+  {
+    path: "/admin/products",
+    element: <AdminDashboard />,
+  },
+  {
+    path: "/admin/customers",
+    element: <AdminDashboard />,
+  },
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
